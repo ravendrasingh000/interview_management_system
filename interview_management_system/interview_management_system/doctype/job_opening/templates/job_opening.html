@@ -1,0 +1,55 @@
+<html style="background-color: #fea49f;"></html>
+
+<div style="
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 32px;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+">
+
+
+  <h1 style="
+    font-size: 2em;
+    margin-bottom: 16px;
+    color: #2c3e50;
+  ">{{ doc.job_title }}</h1>
+
+  <div style="line-height: 1.8; color: #34495e;">
+    <p><strong>📁 Department:</strong> {{ doc.department }}</p>
+    <p><strong>🧑‍💼 Role Type:</strong> {{ doc.role_type }}</p>
+    <p><strong>📍 Location:</strong> {{ doc.location }}</p>
+    <p><strong>👥 No. of Openings:</strong> {{ doc.no_of_openings }}</p>
+    <p><strong>✅ Status:</strong> {{ doc.status }}</p>
+  </div>
+
+  <hr style="margin: 24px 0; border-color: #ddd;">
+
+  <div style="margin-bottom: 24px;">
+    <h3 style="margin-bottom: 10px; color: #2c3e50;">📝 Job Description:</h3>
+    <p style="color: #555;">{{ doc.job_description }}</p>
+  </div>
+
+  <a href="/application-form/new?job_applied_for={{doc.name}}" style="text-decoration: none;">
+    <button style="
+      background-color: #3498db;
+      color: white;
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    " onmouseover="this.style.backgroundColor='#2980b9'" onmouseout="this.style.backgroundColor='#3498db'">Apply Now</button>
+  </a>
+
+</div>
+
+
+
+
+<!-- /apply-job/new?job_applied_for={{doc.job_title}} -->

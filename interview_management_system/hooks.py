@@ -145,6 +145,30 @@ app_license = "mit"
 # 	}
 # }
 
+
+
+doc_events = {
+    "Candidate": {
+        "before_save": "interview_management_system.email.send_email_for_apply"
+    },
+    # "Interview": {
+    #     "before_save": "interview_management_system.email.send_email_for_interview"
+    # },
+    "Interview":{
+        "before_save": "interview_management_system.email.handle_status_based"
+    }
+}
+
+
+
+# doc_events = {
+    # "Interview":{
+    #     "before_save": "interview_management_system.email.handle_status_based"
+    # }
+# }
+
+
+
 # Scheduled Tasks
 # ---------------
 

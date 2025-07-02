@@ -1,0 +1,35 @@
+<div style="
+  border: 1px solid #e0e0e0;
+  padding: 24px;
+  margin: 24px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  background-color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+" onmouseover="this.style.boxShadow='0 6px 16px rgba(0,0,0,0.1)'; this.style.transform='translateY(-4px)'" onmouseout="this.style.boxShadow='0 4px 10px rgba(0,0,0,0.06)'; this.style.transform='none'">
+
+  <h3 style="margin-bottom: 12px;"><a href="{{ doc.route }}" style="text-decoration: none; color: #2c3e50; font-size: 1.5em; font-weight: 600;">{{ doc.job_title }}</a></h3>
+
+  <div style="line-height: 1.7; color: #555;">
+    <p><strong>📁 Department:</strong> {{ doc.department }}</p>
+    <p><strong>📍 Location:</strong> {{ doc.location }}</p>
+    <p><strong>🧑‍💼 Role Type:</strong> {{ doc.role_type }}</p>
+    <p><strong>👥 No. of Openings:</strong> {{ doc.no_of_openings }}</p>
+    <p><strong>✅ Status:</strong> {{ doc.status }}</p>
+  </div>
+
+  <a href="{{ doc.route }}" style="
+    display: inline-block;
+    margin-top: 16px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  " onmouseover="this.style.backgroundColor='#2980b9'" onmouseout="this.style.backgroundColor='#3498db'">View Job</a>
+
+</div>

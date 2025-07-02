@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Job-.###",
+ "creation": "2025-06-04 08:16:51.478326",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "job_title",
+  "department",
+  "location",
+  "route",
+  "column_break_tjeq",
+  "role_type",
+  "no_of_openings",
+  "status",
+  "is_published",
+  "section_break_buuo",
+  "job_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "department",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "Information Technology\nHR\nSales\nConsultant"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "column_break_tjeq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "role_type",
+   "fieldtype": "Select",
+   "label": "Role Type",
+   "options": "Full-time\nPart-time\nRemote"
+  },
+  {
+   "fieldname": "no_of_openings",
+   "fieldtype": "Int",
+   "label": "No. Of Openings"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nClosed"
+  },
+  {
+   "fieldname": "section_break_buuo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "job_description",
+   "fieldtype": "Text",
+   "label": "Job Description"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Job Title",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
+ "links": [],
+ "modified": "2025-06-22 09:35:09.085328",
+ "modified_by": "Administrator",
+ "module": "Interview Management System",
+ "name": "Job Opening",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "Job",
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
