@@ -8,6 +8,15 @@ app_license = "mit"
 # Apps
 # ------------------
 
+
+fixtures = [
+    {"dt": "Candidate"},
+    {"dt": "Interview"},
+    {"dt": "Interviewer"},
+    {"dt": "Job Opening"},
+]
+
+
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page

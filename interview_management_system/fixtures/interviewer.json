@@ -1,0 +1,52 @@
+[
+ {
+  "conducted_number_of_interview": "5",
+  "custom_expert_in_pro_language": null,
+  "docstatus": 0,
+  "doctype": "Interviewer",
+  "mobile_no": "8976789087",
+  "modified": "2025-06-18 12:03:50.497936",
+  "name": "Intr-001",
+  "name1": "Shalindra Aporiya"
+ },
+ {
+  "conducted_number_of_interview": "More than 20",
+  "custom_expert_in_pro_language": null,
+  "docstatus": 0,
+  "doctype": "Interviewer",
+  "mobile_no": "876543678",
+  "modified": "2025-06-18 12:05:03.601468",
+  "name": "Intr-004",
+  "name1": "Mohammad"
+ },
+ {
+  "conducted_number_of_interview": "15",
+  "custom_expert_in_pro_language": null,
+  "docstatus": 0,
+  "doctype": "Interviewer",
+  "mobile_no": "9876546789",
+  "modified": "2025-06-18 12:05:35.412575",
+  "name": "Intr-005",
+  "name1": "Sakshi Singh"
+ },
+ {
+  "conducted_number_of_interview": "10",
+  "custom_expert_in_pro_language": null,
+  "docstatus": 0,
+  "doctype": "Interviewer",
+  "mobile_no": "98076890",
+  "modified": "2025-06-18 12:04:11.639532",
+  "name": "Intr-002",
+  "name1": "Harsh Mehta"
+ },
+ {
+  "conducted_number_of_interview": "15",
+  "custom_expert_in_pro_language": null,
+  "docstatus": 0,
+  "doctype": "Interviewer",
+  "mobile_no": "989768998076",
+  "modified": "2025-06-18 12:04:38.577648",
+  "name": "Intr-003",
+  "name1": "John "
+ }
+]
