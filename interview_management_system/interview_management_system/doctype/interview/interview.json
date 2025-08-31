@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:inter-{DD}-{MM}",
+ "autoname": "format:inter-{DD}-{MM}-{###}",
  "creation": "2025-06-03 15:09:37.633198",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -32,8 +32,7 @@
    "fieldname": "interview_date",
    "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "Interview Date",
-   "reqd": 1
+   "label": "Interview Date"
   },
   {
    "fieldname": "column_break_qodl",
@@ -44,8 +43,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Mode",
-   "options": "\nIn-person\nOnline",
-   "reqd": 1
+   "options": "\nIn-person\nOnline"
   },
   {
    "fieldname": "status",
@@ -73,21 +71,18 @@
   {
    "fieldname": "time",
    "fieldtype": "Time",
-   "label": "Time",
-   "reqd": 1
+   "label": "Time"
   },
   {
    "fieldname": "meeting_link",
    "fieldtype": "Data",
-   "label": "Meeting Link",
-   "reqd": 1
+   "label": "Meeting Link"
   },
   {
    "fieldname": "interviewer_name",
    "fieldtype": "Link",
    "label": "Interviewer Name",
-   "options": "Interviewer",
-   "reqd": 1
+   "options": "Interviewer"
   },
   {
    "fetch_from": "candidate.job_applied_for",
@@ -99,7 +94,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-02 06:11:13.487819",
+ "modified": "2025-08-31 16:49:38.889421",
  "modified_by": "Administrator",
  "module": "Interview Management System",
  "name": "Interview",
